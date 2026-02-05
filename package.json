@@ -1,5 +1,5 @@
 {
-  "name": "new-app",
+  "name": "potfoloi-builder",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,14 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "lucide-react": "^0.562.0",
     "next": "16.1.0",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "rxjs": "^7.8.2",
+    "zustand": "^5.0.9"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -21,6 +26,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.0",
     "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }
